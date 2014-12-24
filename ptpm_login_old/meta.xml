@@ -1,0 +1,8 @@
+<meta>
+	<info author="uhm ptpm" description="user tracking" type="script" version="0.1" />
+	
+	<file src="images/ptpm-default.png"/>
+	
+	<script src="client.lua" type="client" />
+	<script src="server.lua" type="server" />
+</meta>

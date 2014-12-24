@@ -1,0 +1,15 @@
+<meta>
+	<info name="" type="misc" version="1.0.0" />
+	<script src="accounts_login.lua" type="server"/>
+	<script src="accounts_stats.lua" type="server"/>
+	<script src="accounts_client.lua" type="client"/>
+	
+	<export function="registerPlayer" type="server"/>
+	<export function="loginPlayer" type="server"/>
+	<export function="autoLoginPlayer" type="server"/>
+	
+	<export function="saveStats" type="server"/>
+	
+	<export function="getPlayerAccountData" type="server"/>
+	<export function="setPlayerAccountData" type="server"/>
+</meta>
